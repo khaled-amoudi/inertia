@@ -5,19 +5,19 @@
             <li v-for="framework of frameworks" v-text="framework"></li>
             <!-- <li v-for="framework of frameworks">{{ framework }}</li> -->
         </ul>
+
     </div>
+
 
 </template>
 
 
 
-<script>
-export default {
-  props: {
+<script setup>
+    defineProps({
     name: String,
     frameworks: Array,
-  },
-};
+    });
 </script>
 
 

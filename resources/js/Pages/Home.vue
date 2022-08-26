@@ -5,19 +5,15 @@
     </Head>
 
     <div>
-            <!-- <Layout> -->
+    <!-- <Layout> -->
         <h3>Home</h3>
     <!-- </Layout> -->
-
-    <ul>
-        <li class="text-primary" v-for="user in users" :key="user.id" v-text="user.name">
-        </li>
-    </ul>
     </div>
+
 
 </template>
 
-<script>
+<script setup>
 // import Layout from "../Shared/Layout";
 
 // export default {

@@ -7,19 +7,7 @@
     <!-- </Layout> -->
 </template>
 
-<script>
-
-////////////////////////////////////
-// This page uses the default layout
-////////////////////////////////////
-
-// import Layout from "../Shared/Layout";
-
-// export default {
-//   components: {
-//     Layout,
-//   },
-// };
+<script setup>
 </script>
 
 <style lang=""></style>

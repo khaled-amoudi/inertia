@@ -7,7 +7,7 @@
         <Nav />
 
 
-        <div class="row">
+        <div class="row" :class="{'d-none': $page.component === 'Users/Create' || $page.component === 'Users/CreateByFormHelper'}">
             <div class="col-4">
                 <div :class="{'p-2 bg-info': $page.component != 'Home'}">
                     <iframe class="w-100 h-100" src="https://www.youtube.com/embed/ZM1vFz-N03k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -30,15 +30,8 @@
     </div>
 
 </template>
-<script>
-
-import Nav from "../Shared/Nav";
-
-export default {
-    components: {
-        Nav,
-    }
-}
+<script setup>
+    import Nav from "../Shared/Nav"
 </script>
 <style lang="">
 

@@ -31,19 +31,7 @@
 </nav>
     </div>
 </template>
-<script>
+<script setup>
 import { Link } from "@inertiajs/inertia-vue3";
-export default {
-  components: {
-    Link,
-  },
-
-  /* this way used when the [ shared data ] will be used alot in this page */
-  //   computed: {
-  //     username() {
-  //         return this.$page.props.userdata.fname;
-  //     }
-  //   }
-};
 </script>
 <style lang=""></style>
