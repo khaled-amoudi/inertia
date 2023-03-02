@@ -24,7 +24,6 @@ Route::get('login', [LoginController::class, 'create'])->name('login');
 
 Route::middleware('auth')->group(function () {
 
-
     Route::get('test', function () {
         // return view('welcome');
         // return inertia('Welcome');
